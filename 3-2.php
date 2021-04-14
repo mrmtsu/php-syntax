@@ -1,0 +1,24 @@
+<?php
+echo '色を選んでください(1.黒, 2.しろ, 3.赤)';
+$color = (int)trim(fgets(STDIN));
+
+// if ($color === 1) {
+//   echo '黒が選ばれました';
+// } elseif ($color === 2) {
+//   echo 'しろが選ばれました';
+// } elseif ($color === 3) {
+//   echo '赤が選ばれました';
+// }
+
+// switch構文
+switch ($color) {
+  case 1:
+    echo '黒が選ばれました';
+    break;
+  case 2:
+    echo 'しろが選ばれました';
+    break;
+  case 3:
+    echo '赤が選ばべれました';
+    break;
+}
